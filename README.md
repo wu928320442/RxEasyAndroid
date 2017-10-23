@@ -1,6 +1,6 @@
-![](screenshot/device-2017-10-23-144818.jpg)
-![](screenshot/device-2017-10-23-144951.jpg)
-![](screenshot/device-2017-10-23-145004.jpg)
+![](screenshot/device-2017-10-23-144818.png)
+![](screenshot/device-2017-10-23-144951.png)
+![](screenshot/device-2017-10-23-145004.png)
 # 需要的环境
 * JDK1.7
 * SDK
