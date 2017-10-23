@@ -1,4 +1,4 @@
-![](1.jpg)
+![](screenshot/1.jpg)
 # 需要的环境
 * JDK1.7
 * SDK
