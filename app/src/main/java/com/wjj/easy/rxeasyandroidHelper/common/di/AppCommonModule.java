@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.di;
+package com.wjj.easy.rxeasyandroidHelper.common.di;
 
 import android.content.Context;
 
@@ -9,8 +9,8 @@ import com.franmontiel.persistentcookiejar.cache.SetCookieCache;
 import com.franmontiel.persistentcookiejar.persistence.SharedPrefsCookiePersistor;
 import com.wjj.easy.easyandroid.http.Http;
 import com.wjj.easy.easyandroid.mvp.di.modules.AppModule;
-import com.wjj.easy.easyandroidHelper.common.net.ApiService;
-import com.wjj.easy.easyandroidHelper.common.net.CookieInterceptor;
+import com.wjj.easy.rxeasyandroidHelper.common.net.ApiService;
+import com.wjj.easy.rxeasyandroidHelper.common.net.CookieInterceptor;
 
 import dagger.Module;
 import dagger.Provides;

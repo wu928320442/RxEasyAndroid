@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.ui;
+package com.wjj.easy.rxeasyandroidHelper.common.ui;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import com.blankj.utilcode.util.BarUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.jaeger.library.StatusBarUtil;
 import com.wjj.easy.easyandroid.ui.EasyActivity;
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.widget.dialog.DialogLoading;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.widget.dialog.DialogLoading;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

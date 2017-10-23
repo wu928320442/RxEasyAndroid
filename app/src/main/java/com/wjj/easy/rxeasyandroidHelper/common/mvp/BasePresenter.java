@@ -1,8 +1,8 @@
-package com.wjj.easy.easyandroidHelper.common.mvp;
+package com.wjj.easy.rxeasyandroidHelper.common.mvp;
 
 import com.wjj.easy.easyandroid.mvp.EasyBasePresenter;
 import com.wjj.easy.easyandroid.mvp.EasyBaseView;
-import com.wjj.easy.easyandroidHelper.common.rx.RxBus;
+import com.wjj.easy.rxeasyandroidHelper.common.rx.RxBus;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;

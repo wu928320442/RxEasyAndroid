@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.ui;
+package com.wjj.easy.rxeasyandroidHelper.common.ui;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -12,12 +12,12 @@ import com.jaeger.library.StatusBarUtil;
 import com.wjj.easy.easyandroid.mvp.EasyBasePresenter;
 import com.wjj.easy.easyandroid.mvp.di.modules.ActivityModule;
 import com.wjj.easy.easyandroid.ui.EasyActivity;
-import com.wjj.easy.easyandroidHelper.AppApplication;
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.common.di.ActivityCommonComponent;
-import com.wjj.easy.easyandroidHelper.common.di.DaggerActivityCommonComponent;
-import com.wjj.easy.easyandroidHelper.common.mvp.BaseView;
-import com.wjj.easy.easyandroidHelper.widget.dialog.DialogLoading;
+import com.wjj.easy.rxeasyandroidHelper.AppApplication;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.common.di.ActivityCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.di.DaggerActivityCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.mvp.BaseView;
+import com.wjj.easy.rxeasyandroidHelper.widget.dialog.DialogLoading;
 
 import javax.inject.Inject;
 

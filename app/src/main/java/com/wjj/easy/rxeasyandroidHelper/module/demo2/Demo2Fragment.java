@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.module.demo2;
+package com.wjj.easy.rxeasyandroidHelper.module.demo2;
 
 import android.graphics.Color;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -6,12 +6,12 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.common.ui.BaseFragment;
-import com.wjj.easy.easyandroidHelper.model.ProductItemInfo;
-import com.wjj.easy.easyandroidHelper.module.ProductAdapter;
-import com.wjj.easy.easyandroidHelper.module.ProductContract;
-import com.wjj.easy.easyandroidHelper.module.ProductPresenter;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.common.ui.BaseFragment;
+import com.wjj.easy.rxeasyandroidHelper.model.ProductItemInfo;
+import com.wjj.easy.rxeasyandroidHelper.module.ProductAdapter;
+import com.wjj.easy.rxeasyandroidHelper.module.ProductContract;
+import com.wjj.easy.rxeasyandroidHelper.module.ProductPresenter;
 
 import java.util.List;
 

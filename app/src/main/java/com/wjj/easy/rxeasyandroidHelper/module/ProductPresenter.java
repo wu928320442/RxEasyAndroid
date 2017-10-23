@@ -1,12 +1,12 @@
-package com.wjj.easy.easyandroidHelper.module;
+package com.wjj.easy.rxeasyandroidHelper.module;
 
 import com.blankj.utilcode.util.LogUtils;
-import com.wjj.easy.easyandroidHelper.common.mvp.BasePresenter;
-import com.wjj.easy.easyandroidHelper.common.net.ApiService;
-import com.wjj.easy.easyandroidHelper.common.rx.CommonSubscriber;
-import com.wjj.easy.easyandroidHelper.common.rx.RxUtil;
-import com.wjj.easy.easyandroidHelper.model.ProductItemInfo;
-import com.wjj.easy.easyandroidHelper.model.http.base.BaseResponseInfo;
+import com.wjj.easy.rxeasyandroidHelper.common.mvp.BasePresenter;
+import com.wjj.easy.rxeasyandroidHelper.common.net.ApiService;
+import com.wjj.easy.rxeasyandroidHelper.common.rx.CommonSubscriber;
+import com.wjj.easy.rxeasyandroidHelper.common.rx.RxUtil;
+import com.wjj.easy.rxeasyandroidHelper.model.ProductItemInfo;
+import com.wjj.easy.rxeasyandroidHelper.model.http.base.BaseResponseInfo;
 
 import java.util.List;
 
@@ -40,11 +40,6 @@ public class ProductPresenter extends BasePresenter<ProductContract.View> implem
                         }
                     }
                 })
-//                .doOnNext((productItemInfos)->{
-//                    for(ProductItemInfo o:productItemInfos){
-//                        LogUtils.d(o.getName());
-//                    }
-//                })
                 .subscribeWith(new CommonSubscriber<List<ProductItemInfo>>(getView()) {
                     @Override
                     public void onNext(List<ProductItemInfo> o) {

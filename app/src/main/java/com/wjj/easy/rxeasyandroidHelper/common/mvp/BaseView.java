@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.mvp;
+package com.wjj.easy.rxeasyandroidHelper.common.mvp;
 
 import com.wjj.easy.easyandroid.mvp.EasyBaseView;
 

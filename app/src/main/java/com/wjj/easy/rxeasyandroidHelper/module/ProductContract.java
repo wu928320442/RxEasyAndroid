@@ -1,8 +1,8 @@
-package com.wjj.easy.easyandroidHelper.module;
+package com.wjj.easy.rxeasyandroidHelper.module;
 
 import com.wjj.easy.easyandroid.mvp.EasyBasePresenter;
-import com.wjj.easy.easyandroidHelper.common.mvp.BaseView;
-import com.wjj.easy.easyandroidHelper.model.ProductItemInfo;
+import com.wjj.easy.rxeasyandroidHelper.common.mvp.BaseView;
+import com.wjj.easy.rxeasyandroidHelper.model.ProductItemInfo;
 
 import java.util.List;
 

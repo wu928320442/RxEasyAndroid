@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.model;
+package com.wjj.easy.rxeasyandroidHelper.model;
 
 public class ProductItemInfo{
 

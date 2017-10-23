@@ -10,7 +10,6 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-
     }
 
     buildTypes {
@@ -18,6 +17,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.sourceCompatibility
+        targetCompatibility rootProject.ext.sourceCompatibility
     }
 }
 
@@ -29,14 +33,14 @@ dependencies {
     //retrofit2
     compile "com.squareup.retrofit2:retrofit:$rootProject.retrofit2"
     compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofit2"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit2"
     //okhttp3
     compile "com.squareup.okhttp3:okhttp:$rootProject.okhttp3"
     compile "com.squareup.okhttp3:logging-interceptor:$rootProject.okhttp3"
     //persistentCookieJar
     compile "com.github.franmontiel:PersistentCookieJar:$rootProject.persistentCookieJar"
-    //fresco
-    compile "com.facebook.fresco:fresco:$rootProject.fresco"
-    compile "com.facebook.fresco:imagepipeline-okhttp3:$rootProject.fresco"
+    //glide
+    compile "com.github.bumptech.glide:glide:$rootProject.glide"
     //dagger2
     apt "com.google.dagger:dagger-compiler:$rootProject.dagger2"
     compile "com.google.dagger:dagger:$rootProject.dagger2"
@@ -48,6 +52,10 @@ dependencies {
     compile "com.blankj:utilcode:$rootProject.utilcode"
     //logger
     compile "com.orhanobut:logger:$rootProject.orhanobutLogger"
+    //rxjava
+    compile "io.reactivex.rxjava2:rxjava:$rootProject.rxjava"
+    //rxAndroid
+    compile "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroid"
 }
 
 ext {
@@ -75,5 +83,5 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
-apply from:'https://cdn.rawgit.com/Jude95/JCenter/master/install.gradle'
-apply from:'https://cdn.rawgit.com/Jude95/JCenter/master/bintray.gradle'
+//apply from: 'https://cdn.rawgit.com/Jude95/JCenter/master/install.gradle'
+//apply from: 'https://cdn.rawgit.com/Jude95/JCenter/master/bintray.gradle'

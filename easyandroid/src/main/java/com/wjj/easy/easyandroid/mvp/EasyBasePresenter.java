@@ -6,6 +6,6 @@ package com.wjj.easy.easyandroid.mvp;
  * Created by wujiajun on 17/4/6.
  */
 public interface EasyBasePresenter<V extends EasyBaseView> {
-    void start();
     void attachView(V view);
+    void detachView();
 }

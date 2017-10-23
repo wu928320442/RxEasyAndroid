@@ -1,9 +1,9 @@
-package com.wjj.easy.easyandroidHelper.common.di;
+package com.wjj.easy.rxeasyandroidHelper.common.di;
 
 import com.wjj.easy.easyandroid.mvp.di.components.FragmentComponent;
 import com.wjj.easy.easyandroid.mvp.di.modules.FragmentModule;
 import com.wjj.easy.easyandroid.mvp.di.scopes.FragmentScope;
-import com.wjj.easy.easyandroidHelper.module.demo2.Demo2Fragment;
+import com.wjj.easy.rxeasyandroidHelper.module.demo2.Demo2Fragment;
 
 import dagger.Component;
 

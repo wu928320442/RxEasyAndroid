@@ -1,9 +1,9 @@
-package com.wjj.easy.easyandroidHelper.common.di;
+package com.wjj.easy.rxeasyandroidHelper.common.di;
 
 import com.wjj.easy.easyandroid.mvp.di.components.ActivityComponent;
 import com.wjj.easy.easyandroid.mvp.di.modules.ActivityModule;
 import com.wjj.easy.easyandroid.mvp.di.scopes.ActivityScope;
-import com.wjj.easy.easyandroidHelper.module.demo1.Demo1Activity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo1.Demo1Activity;
 
 import dagger.Component;
 

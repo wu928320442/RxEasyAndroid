@@ -1,12 +1,12 @@
-package com.wjj.easy.easyandroidHelper.module;
+package com.wjj.easy.rxeasyandroidHelper.module;
 
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.model.ProductItemInfo;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.model.ProductItemInfo;
 
 /**
  * Created by wujiajun on 2017/10/18.

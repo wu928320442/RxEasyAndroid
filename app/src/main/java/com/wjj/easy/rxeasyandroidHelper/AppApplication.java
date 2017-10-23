@@ -1,10 +1,10 @@
-package com.wjj.easy.easyandroidHelper;
+package com.wjj.easy.rxeasyandroidHelper;
 
 import android.app.Application;
 
-import com.wjj.easy.easyandroidHelper.common.di.AppCommonComponent;
-import com.wjj.easy.easyandroidHelper.common.di.AppCommonModule;
-import com.wjj.easy.easyandroidHelper.common.di.DaggerAppCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.di.AppCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.di.AppCommonModule;
+import com.wjj.easy.rxeasyandroidHelper.common.di.DaggerAppCommonComponent;
 
 /**
  * Created by wujiajun on 17/4/6.

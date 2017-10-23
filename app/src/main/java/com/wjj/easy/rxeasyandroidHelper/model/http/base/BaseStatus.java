@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.model.http.base;
+package com.wjj.easy.rxeasyandroidHelper.model.http.base;
 
 /**
  * Created by zhaotun

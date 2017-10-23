@@ -1,10 +1,10 @@
-package com.wjj.easy.easyandroidHelper.common.ui;
+package com.wjj.easy.rxeasyandroidHelper.common.ui;
 
 import android.view.View;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.wjj.easy.easyandroid.ui.EasyFragment;
-import com.wjj.easy.easyandroidHelper.widget.dialog.DialogLoading;
+import com.wjj.easy.rxeasyandroidHelper.widget.dialog.DialogLoading;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

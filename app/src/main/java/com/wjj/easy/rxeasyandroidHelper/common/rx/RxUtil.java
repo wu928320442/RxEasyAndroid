@@ -1,8 +1,8 @@
-package com.wjj.easy.easyandroidHelper.common.rx;
+package com.wjj.easy.rxeasyandroidHelper.common.rx;
 
-import com.wjj.easy.easyandroidHelper.model.http.base.BaseResponseInfo;
-import com.wjj.easy.easyandroidHelper.model.http.base.BaseStatus;
-import com.wjj.easy.easyandroidHelper.model.http.exception.ApiException;
+import com.wjj.easy.rxeasyandroidHelper.model.http.base.BaseResponseInfo;
+import com.wjj.easy.rxeasyandroidHelper.model.http.base.BaseStatus;
+import com.wjj.easy.rxeasyandroidHelper.model.http.exception.ApiException;
 
 import io.reactivex.BackpressureStrategy;
 import io.reactivex.Flowable;

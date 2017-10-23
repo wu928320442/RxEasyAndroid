@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.net;
+package com.wjj.easy.rxeasyandroidHelper.common.net;
 
 /**
  * Created by wujiajun on 17/4/11.

@@ -1,7 +1,7 @@
-package com.wjj.easy.easyandroidHelper.module.demo2;
+package com.wjj.easy.rxeasyandroidHelper.module.demo2;
 
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.common.ui.SimpleActivity;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.common.ui.SimpleActivity;
 
 /**
  * Created by wujiajun on 2017/10/23.

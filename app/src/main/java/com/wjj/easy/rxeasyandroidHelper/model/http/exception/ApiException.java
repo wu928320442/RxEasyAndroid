@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.model.http.exception;
+package com.wjj.easy.rxeasyandroidHelper.model.http.exception;
 
 /**
  * ApiException

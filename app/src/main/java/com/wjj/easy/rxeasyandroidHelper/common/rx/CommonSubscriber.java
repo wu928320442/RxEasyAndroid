@@ -1,10 +1,10 @@
-package com.wjj.easy.easyandroidHelper.common.rx;
+package com.wjj.easy.rxeasyandroidHelper.common.rx;
 
 import android.text.TextUtils;
 
 import com.blankj.utilcode.util.LogUtils;
-import com.wjj.easy.easyandroidHelper.common.mvp.BaseView;
-import com.wjj.easy.easyandroidHelper.model.http.exception.ApiException;
+import com.wjj.easy.rxeasyandroidHelper.common.mvp.BaseView;
+import com.wjj.easy.rxeasyandroidHelper.model.http.exception.ApiException;
 
 import io.reactivex.subscribers.ResourceSubscriber;
 import retrofit2.HttpException;

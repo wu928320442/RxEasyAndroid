@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.widget;
+package com.wjj.easy.rxeasyandroidHelper.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

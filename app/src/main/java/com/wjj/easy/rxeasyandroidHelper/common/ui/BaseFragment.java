@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.ui;
+package com.wjj.easy.rxeasyandroidHelper.common.ui;
 
 import android.view.View;
 
@@ -6,11 +6,11 @@ import com.blankj.utilcode.util.ToastUtils;
 import com.wjj.easy.easyandroid.mvp.EasyBasePresenter;
 import com.wjj.easy.easyandroid.mvp.di.modules.FragmentModule;
 import com.wjj.easy.easyandroid.ui.EasyFragment;
-import com.wjj.easy.easyandroidHelper.AppApplication;
-import com.wjj.easy.easyandroidHelper.common.di.DaggerFragmentCommonComponent;
-import com.wjj.easy.easyandroidHelper.common.di.FragmentCommonComponent;
-import com.wjj.easy.easyandroidHelper.common.mvp.BaseView;
-import com.wjj.easy.easyandroidHelper.widget.dialog.DialogLoading;
+import com.wjj.easy.rxeasyandroidHelper.AppApplication;
+import com.wjj.easy.rxeasyandroidHelper.common.di.DaggerFragmentCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.di.FragmentCommonComponent;
+import com.wjj.easy.rxeasyandroidHelper.common.mvp.BaseView;
+import com.wjj.easy.rxeasyandroidHelper.widget.dialog.DialogLoading;
 
 import javax.inject.Inject;
 

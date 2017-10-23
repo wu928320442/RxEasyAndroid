@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.net;
+package com.wjj.easy.rxeasyandroidHelper.common.net;
 
 import java.io.IOException;
 

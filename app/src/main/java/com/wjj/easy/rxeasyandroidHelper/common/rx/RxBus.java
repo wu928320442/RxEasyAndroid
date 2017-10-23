@@ -1,4 +1,4 @@
-package com.wjj.easy.easyandroidHelper.common.rx;
+package com.wjj.easy.rxeasyandroidHelper.common.rx;
 
 import io.reactivex.Flowable;
 import io.reactivex.disposables.Disposable;

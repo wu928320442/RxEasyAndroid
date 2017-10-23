@@ -1,8 +1,8 @@
-package com.wjj.easy.easyandroidHelper.common.di;
+package com.wjj.easy.rxeasyandroidHelper.common.di;
 
 import com.wjj.easy.easyandroid.mvp.di.components.AppComponent;
 import com.wjj.easy.easyandroid.mvp.di.scopes.ApplicationScope;
-import com.wjj.easy.easyandroidHelper.common.net.ApiService;
+import com.wjj.easy.rxeasyandroidHelper.common.net.ApiService;
 
 import dagger.Component;
 

@@ -12,7 +12,6 @@ import com.wjj.easy.easyandroid.mvp.EasyBaseView;
  * Activity基类
  * Created by wujiajun on 17/4/14.
  */
-
 public abstract class EasyActivity extends AppCompatActivity implements EasyBaseView {
 
     private final static String TAG = EasyActivity.class.getSimpleName();

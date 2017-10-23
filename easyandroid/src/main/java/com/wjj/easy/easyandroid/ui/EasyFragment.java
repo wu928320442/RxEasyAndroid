@@ -15,6 +15,7 @@ import com.wjj.easy.easyandroid.mvp.EasyBaseView;
 import javax.inject.Inject;
 
 /**
+ * Fragment基类
  * Created by wujiajun on 17/4/14.
  */
 

@@ -1,14 +1,14 @@
-package com.wjj.easy.easyandroidHelper.module;
+package com.wjj.easy.rxeasyandroidHelper.module;
 
 import android.content.Intent;
 import android.view.View;
 
-import com.wjj.easy.easyandroidHelper.R;
-import com.wjj.easy.easyandroidHelper.common.ui.SimpleActivity;
-import com.wjj.easy.easyandroidHelper.module.demo1.Demo1Activity;
-import com.wjj.easy.easyandroidHelper.module.demo2.Demo2Activity;
-import com.wjj.easy.easyandroidHelper.module.demo3.Demo3Activity;
-import com.wjj.easy.easyandroidHelper.module.demo4.Demo4Activity;
+import com.wjj.easy.rxeasyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.common.ui.SimpleActivity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo1.Demo1Activity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo2.Demo2Activity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo3.Demo3Activity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo4.Demo4Activity;
 
 import butterknife.OnClick;
 

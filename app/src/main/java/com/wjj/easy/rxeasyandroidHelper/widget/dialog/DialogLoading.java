@@ -1,9 +1,9 @@
-package com.wjj.easy.easyandroidHelper.widget.dialog;
+package com.wjj.easy.rxeasyandroidHelper.widget.dialog;
 
 import android.content.Context;
 import android.widget.TextView;
 
-import com.wjj.easy.easyandroidHelper.R;
+import com.wjj.easy.rxeasyandroidHelper.R;
 
 import butterknife.BindView;
 

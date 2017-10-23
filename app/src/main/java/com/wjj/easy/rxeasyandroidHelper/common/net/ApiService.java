@@ -1,7 +1,7 @@
-package com.wjj.easy.easyandroidHelper.common.net;
+package com.wjj.easy.rxeasyandroidHelper.common.net;
 
-import com.wjj.easy.easyandroidHelper.model.ProductItemInfo;
-import com.wjj.easy.easyandroidHelper.model.http.base.BaseResponseInfo;
+import com.wjj.easy.rxeasyandroidHelper.model.ProductItemInfo;
+import com.wjj.easy.rxeasyandroidHelper.model.http.base.BaseResponseInfo;
 
 import java.util.List;
 
