@@ -6,7 +6,7 @@
 # 特性
 * 整合主流HTTP网络（Retrofit2、OKHTTP3）、图片加载（Glide）、MVP（RxJava2＋Dagger2）架构的一套快速高效的开发框架
 * 包含app library 两个Module 组件化开发
-* 在EasyAndroid基础上加入RxJava2支持 https://github.com/wu928320442/EasyAndroid
+* 在EasyAndroid基础上加入RxJava2支持 这个是非RxJava2版本https://github.com/wu928320442/EasyAndroid
 
 # 用到的第三方框架
 * SDK自带扩展依赖包
