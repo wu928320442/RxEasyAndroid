@@ -27,18 +27,18 @@
 * Logger 一个简洁漂亮的日志打印库
 
 # 版本更新内容
-* 2.1
-1.集成RxBind
-2.集成Realm
-3.SimpleActivity SimpleFragment也支持依赖注入
+## 2.1
+- 1.集成RxBind
+- 2.集成Realm
+- 3.SimpleActivity SimpleFragment也支持依赖注入
 
 * 2.0
-** APP 部分
+## APP 部分
 1.去除Clean建筑模式
 2.封装常用Rx操作
 3.RxJava支持
 4.增加了状态栏设置
-** 类库：
+## 类库：
 1.删除无用的Presenter EasyBasePresenterFrg EasyBaseViewFrg
 2.网络配置支持RxJava
 
