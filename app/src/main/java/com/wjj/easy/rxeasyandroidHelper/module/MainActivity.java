@@ -9,6 +9,7 @@ import com.wjj.easy.rxeasyandroidHelper.module.demo1.Demo1Activity;
 import com.wjj.easy.rxeasyandroidHelper.module.demo2.Demo2Activity;
 import com.wjj.easy.rxeasyandroidHelper.module.demo3.Demo3Activity;
 import com.wjj.easy.rxeasyandroidHelper.module.demo4.Demo4Activity;
+import com.wjj.easy.rxeasyandroidHelper.module.demo5.Demo5Activity;
 
 import butterknife.OnClick;
 
@@ -29,7 +30,7 @@ public class MainActivity extends SimpleActivity {
         return R.layout.activity_main;
     }
 
-    @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4})
+    @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn1:
@@ -43,6 +44,9 @@ public class MainActivity extends SimpleActivity {
                 break;
             case R.id.btn4:
                 startActivity(new Intent(MainActivity.this, Demo4Activity.class));
+                break;
+            case R.id.btn5:
+                startActivity(new Intent(MainActivity.this, Demo5Activity.class));
                 break;
         }
     }

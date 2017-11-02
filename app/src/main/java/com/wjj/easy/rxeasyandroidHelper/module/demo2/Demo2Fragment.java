@@ -39,7 +39,7 @@ public class Demo2Fragment extends BaseFragment<ProductPresenter> implements Pro
     }
 
     @Override
-    protected void initInject() {
+    public void initInject() {
         getFragmentComponent().inject(this);
     }
 

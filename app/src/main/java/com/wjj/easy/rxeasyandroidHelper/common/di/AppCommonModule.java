@@ -14,6 +14,7 @@ import com.wjj.easy.rxeasyandroidHelper.common.net.CookieInterceptor;
 
 import dagger.Module;
 import dagger.Provides;
+import io.realm.Realm;
 
 /**
  * Application Module
@@ -29,6 +30,7 @@ public class AppCommonModule extends AppModule {
         super(context);
         initHttp();
         initUtils();
+        initRealm(context);
     }
 
     /**
@@ -53,9 +55,22 @@ public class AppCommonModule extends AppModule {
         Utils.init(provideContext());
     }
 
+    /**
+     * init Realm
+     *
+     * @param context
+     */
+    private void initRealm(Context context) {
+        Realm.init(context);
+    }
+
     @Provides
     ApiService provideApiService() {
         return mHttp.getRetrofit().create(ApiService.class);
     }
 
+    @Provides
+    Realm provideRealm() {
+        return Realm.getDefaultInstance();
+    }
 }

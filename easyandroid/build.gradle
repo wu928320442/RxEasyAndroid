@@ -56,6 +56,7 @@ dependencies {
     compile "io.reactivex.rxjava2:rxjava:$rootProject.rxjava"
     //rxAndroid
     compile "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroid"
+    compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
 }
 
 ext {

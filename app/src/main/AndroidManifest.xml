@@ -22,6 +22,7 @@
         <activity android:name="com.wjj.easy.rxeasyandroidHelper.module.demo2.Demo2Activity" />
         <activity android:name="com.wjj.easy.rxeasyandroidHelper.module.demo3.Demo3Activity" />
         <activity android:name="com.wjj.easy.rxeasyandroidHelper.module.demo4.Demo4Activity" />
+        <activity android:name=".module.demo5.Demo5Activity"/>
     </application>
 
 </manifest>

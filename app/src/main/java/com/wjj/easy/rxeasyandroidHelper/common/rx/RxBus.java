@@ -7,11 +7,12 @@ import io.reactivex.processors.FlowableProcessor;
 import io.reactivex.processors.PublishProcessor;
 
 /**
- * Created by codeest on 2016/8/2.
+ * RxBus
  */
 public class RxBus {
     // 主题
     private final FlowableProcessor<Object> bus;
+
     // PublishSubject只会把在订阅发生的时间点之后来自原始Flowable的数据发射给观察者
     private RxBus() {
         bus = PublishProcessor.create().toSerialized();

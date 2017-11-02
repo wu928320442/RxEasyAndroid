@@ -5,6 +5,7 @@ import com.wjj.easy.easyandroid.mvp.di.scopes.ApplicationScope;
 import com.wjj.easy.rxeasyandroidHelper.common.net.ApiService;
 
 import dagger.Component;
+import io.realm.Realm;
 
 /**
  * Application注入器
@@ -15,4 +16,6 @@ import dagger.Component;
 @Component(modules = AppCommonModule.class)
 public interface AppCommonComponent extends AppComponent {
     ApiService getApiService();
+
+    Realm getRealm();
 }

@@ -10,6 +10,8 @@ import com.wjj.easy.rxeasyandroidHelper.AppApplication;
 import com.wjj.easy.rxeasyandroidHelper.common.di.DaggerFragmentCommonComponent;
 import com.wjj.easy.rxeasyandroidHelper.common.di.FragmentCommonComponent;
 import com.wjj.easy.rxeasyandroidHelper.common.mvp.BaseView;
+import com.wjj.easy.rxeasyandroidHelper.common.ui.interfaces.DiFragmentSupport;
+import com.wjj.easy.rxeasyandroidHelper.common.ui.interfaces.PresenterSupport;
 import com.wjj.easy.rxeasyandroidHelper.widget.dialog.DialogLoading;
 
 import javax.inject.Inject;
@@ -23,7 +25,7 @@ import butterknife.Unbinder;
  * @author wujiajun
  */
 
-public abstract class BaseFragment<P extends EasyBasePresenter> extends EasyFragment implements BaseView {
+public abstract class BaseFragment<P extends EasyBasePresenter> extends EasyFragment implements BaseView, DiFragmentSupport, PresenterSupport<P> {
 
     @Inject
     protected P mPresenter;
@@ -52,21 +54,25 @@ public abstract class BaseFragment<P extends EasyBasePresenter> extends EasyFrag
         mPresenter.detachView();
     }
 
-    protected FragmentCommonComponent getFragmentComponent() {
+    //di
+    @Override
+    public FragmentCommonComponent getFragmentComponent() {
         return DaggerFragmentCommonComponent.builder()
                 .appCommonComponent(((AppApplication) getActivity().getApplication()).getAppComponent())
                 .fragmentModule(getFragmentModule())
                 .build();
     }
 
-    protected FragmentModule getFragmentModule() {
+    @Override
+    public FragmentModule getFragmentModule() {
         return new FragmentModule(this);
     }
 
-    protected abstract void initInject();
+    @Override
+    public abstract void initInject();
 
-    protected abstract void initEventAndData();
-
+    //presenter
+    @Override
     public P getPresenter() {
         return mPresenter;
     }
@@ -96,4 +102,7 @@ public abstract class BaseFragment<P extends EasyBasePresenter> extends EasyFrag
     public void stateError() {
 
     }
+
+    //custom
+    protected abstract void initEventAndData();
 }

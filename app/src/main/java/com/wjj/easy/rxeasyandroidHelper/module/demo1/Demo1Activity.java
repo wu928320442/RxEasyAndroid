@@ -39,7 +39,7 @@ public class Demo1Activity extends BaseActivity<ProductPresenter> implements Pro
     }
 
     @Override
-    protected void initInject() {
+    public void initInject() {
         getActivityComponent().inject(this);
     }
 

@@ -51,5 +51,12 @@
             android:layout_height="wrap_content"
             android:text="SimpleFragment"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxBind/Realm"
+            android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>
